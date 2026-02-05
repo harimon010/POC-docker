@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM public.ecr.aws/ubuntu/ubuntu:edge
 RUN mkdir /opt/app/
 WORKDIR /opt/app/
 RUN apt update
