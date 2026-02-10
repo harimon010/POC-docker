@@ -3,6 +3,6 @@ RUN mkdir /opt/app/
 WORKDIR /opt/app/
 RUN apt update
 RUN apt install apache2 -y
-RUN echo "Hello world" >> /var/www/html/index.html
+RUN echo "Hello world, I am Hareesh Kumar" >> /var/www/html/index.html
 EXPOSE 80
 CMD ["apachectl","-D","FOREGROUND"]
